@@ -1,0 +1,119 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+html,
+body{
+  height: 100%;
+  width: 100%;
+  background-color: #111;
+}
+.parent{
+height: 400px;
+width: 350px;
+background-color:white;
+border-radius: 10px;
+margin: 20px;
+padding: 20px;
+
+
+}
+.parents{
+  display: flex;
+flex-wrap: wrap;
+
+
+
+}
+.footer{
+  display: flex;
+  
+}
+button{
+  background-color: black;
+  color: rgb(211, 209, 209);
+  border-radius: 8px;
+  width: 110px;
+  height: 38px;
+  font-size: 16px;
+ margin-left: 80px;
+ 
+
+}
+.address{
+  color: rgb(115, 116, 116);
+  font-weight: 600;
+  font-size: 14px;
+}
+.charge{
+  font-weight: 600;
+}
+img{
+  height: 60px;
+  width: 60px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 3px solid yellow;
+}
+.savebtn{
+  color: rgb(196, 192, 192);
+  font-size: 18px;
+  font-weight: 600;
+  border: 2px solid rgb(227, 226, 226);
+  border-radius: 8px;
+  padding: 10px 40px;
+
+}
+.header{
+  display: flex;
+  
+  align-items: center;
+gap: 130px;
+}
+.main{
+  padding-top: 50px;
+  padding-bottom: 50px;
+  gap: 10px;
+  display: flex;
+  flex-direction: column;
+}
+.company{
+font-weight: 700;
+font-size: 19px;
+}
+.time{
+  color: rgb(115, 116, 116);
+  font-weight: 600;
+  margin-left: 20px;
+  font-size: 16px;
+}
+.post{
+  font-weight: 700;
+  font-size: 28px;
+
+}
+.btn1{
+font-size: 14px;
+font-weight: 600;
+background-color: rgb(225, 225, 225);
+padding: 10px;
+border-radius: 5px;
+}
+.btn2{
+font-size: 14px;
+font-weight: 600;
+background-color: rgb(225, 225, 225);
+padding: 10px;
+border-radius: 5px;
+margin-left: 8px;
+}
+.line{
+  margin-top: 40px;
+  border: 1px solid red;
+  margin-bottom: 20px;
+
+}
+
